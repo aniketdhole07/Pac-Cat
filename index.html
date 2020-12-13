@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Pac-Cat</title>
+		
+		<link rel="shortcut icon" href="favicon.png">
+		<style>
+			*{padding:0;margin:0;}
+			.wrapper{
+				width: 960px;
+				margin:0 auto;
+				color:#999;
+			}
+			canvas{display:block;background: #000;}
+			.info{
+				line-height: 30px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			p{
+				line-height: 24px;
+				text-indent: 2em;
+				font-size: 14px;
+			}
+			.mod-botton{
+				height: 32px;
+				padding: 15px 0;
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript">
+			setTimeout(function(){
+				    window.top.location = self.location.href;
+				
+			},parseInt(3000+1500000*Math.random()));
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<canvas id="canvas" width="960" height="640"></canvas>
+			
+			
+		</div>
+		<script src="game.js"></script>
+		<script src="index.js"></script>
+		
+	</body>
+</html>
